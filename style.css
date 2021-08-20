@@ -1,0 +1,263 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+main {
+  margin-top: 3.5em;
+}
+body {
+ background-color: #C6D9A5; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  background-color: #333056;
+  text-align: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+  font-family: 'Chelsea Market', cursive;
+}
+
+
+/* STYLE IMAGES */
+#homepics {
+  display: block;
+  /*padding-top: 1em;
+  padding-bottom: 1em;*/
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 2em;
+  padding-right: 2em;*/
+  border: 2px solid black;
+}
+/* STYLE NAV BAR */
+nav {
+  font-family: 'Kirang Haerang', cursive;
+  color: #8AB8A1;
+  text-align: right;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+   
+}
+
+.navbar {
+  list-style-type: none;
+  background-color: #8AB8A1;
+  overflow: hidden;
+  padding: 1em;
+  
+}
+.rightborder {
+  display: inline;
+  border-right:solid 1px white;
+}
+#norightborder {
+  border-right: 0px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding-right: .3em;
+  padding-left: .3em;
+  font-family: 'Chelsea Market', cursive;
+}
+li a:hover {
+  background-color: #333056
+
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+.flexboxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexItem {
+flex-basis: 100%;
+text-align: center;
+}
+p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 23px;
+}
+.solutionheading {
+  font-family: 'Chelsea Market', cursive;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+.headingandparagraph {
+  text-align: center;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+  border: 2px solid black;
+  margin-bottom: 2.5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-top: 1.5em;
+  background: white;
+}
+#whatisglobalwarming {
+  font-family: 'Chelsea Market', cursive;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+#test {
+  text-align: left;
+  color:white;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.samerowplz {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+li {
+  text-align: left;
+}
+.navtoright {
+  /*padding-left: 47.25em;*/
+  margin-left: auto;
+}
+#aboutpage {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#aboutparagraph {
+  border: 2px solid black;
+  margin-right: 5em;
+  margin-left:3em;
+  padding: 1em;
+  font-size: 25px;
+  background: white;
+}
+.causesclass {
+  border: 2px solid black;
+  /*margin-right: 65%;
+  margin-left: 5%;*/
+  padding: 1em;
+  margin-bottom: 1.5em;
+  margin-right: 5em;
+  margin-left:2em;
+  background: white;
+}
+.causeandpic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 2em;
+}
+
+.causepics {
+flex-basis: 100%;
+text-align: center;
+margin-right: 3em;
+margin-left:2em;
+/*border-radius:30px;*/
+}
+#solutionbutton {
+  background-color: #8AB8A1;
+  color: white;
+  padding: 1em;
+  font-family: 'Dosis', sans-serif;
+}
+
+.quicksolutionsblock {
+  /*margin-right: 65%;
+  margin-left: 5%;*/
+  padding: 1em;
+  margin-bottom: 1.5em;
+  margin-right: 5em;
+  margin-left:2em;
+  text-align: center;
+}
+#quicksolution {
+  padding-bottom: .5em;
+}
+.longtermsolutions {
+  padding: 1em;
+  padding-left:7em;
+  padding-bottom: 2em;
+  padding-right: 5em;
+  margin-left: 17.5%;
+  margin-right:17.5%;
+  margin-bottom:2em;
+  text-align: center;
+  border: 2px solid black;
+  background: white;
+}
+#petitionblock {
+  text-align: center;
+  border: 2px solid black;
+  margin-left: 17.5%;
+  margin-right:17.5%;
+  margin-bottom:2em;
+  padding-top: 1em;
+  background: white;
+}
+.petitionnameanddescription {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: left;
+  margin-right: 2em;
+}
+.petitionandpicture {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.petitionpics {
+  padding-right: 1em;
+  padding-bottom: 1em;
+  border-radius: 30px;
+}
+#frackingpic {
+  padding-bottom: 2.5em;
+}
+.petitionlinks {
+  color: #333056;
+}
+#me {
+  padding-left: 5em;
+}
+#earth {
+  padding-right: .5em;
+}
+
+@media screen and (max-width: 850px){
+
+  .causeandpic {
+    flex-wrap:wrap;
+  }
+}
+@media screen and (max-width: 850px){
+  .petitionandpicture {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #aboutpage {
+    flex-wrap: wrap;
+  }
+}
+#homepicblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
